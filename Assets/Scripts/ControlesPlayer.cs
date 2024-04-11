@@ -40,8 +40,13 @@ public class ControlesPlayer : MonoBehaviour
         disparar = GetComponent<Disparar>();
         gravedad = Physics2D.gravity.y;
         prevenirDispararPiso = GetComponentInChildren<PrevenirDispararPiso>();
-        CheckPointSystem.instance.ActualizarUltimaPos(transform.position);
+        
 
+    }
+
+    private void Start()
+    {
+        CheckPointSystem.instance.ActualizarUltimaPos(transform.position);
     }
 
     private void Update()

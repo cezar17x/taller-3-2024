@@ -12,7 +12,12 @@ public class Proyectil : MonoBehaviour
 
     Vector3 posicionAnterior;
     SonidosGameObject sonidosGO;
+    public bool puedeRebotar;
+    public float vida;
+    float t;
 
+    public int cantidadRebotes;
+    int rebotes;
     private void Awake()
     {
         sonidosGO = GetComponent<SonidosGameObject>();
@@ -28,6 +33,14 @@ public class Proyectil : MonoBehaviour
 
     private void Update()
     {
+        t += Time.deltaTime;
+
+        if(t >= vida)
+        {
+            Destroy(gameObject);
+        }
+
+
         Vector2 direccion = (transform.position - posicionAnterior);
         posicionAnterior = transform.position;
 
@@ -42,7 +55,21 @@ public class Proyectil : MonoBehaviour
                 Instantiate(impactPrefab, hit.point, Quaternion.identity);
 
             sonidosGO.ReproducirSonido();
-            Destroy(gameObject);
+
+            if(puedeRebotar)
+            {
+                //rotar la bala
+                Vector2 direccionNueva = Vector2.Reflect(transform.right, hit.normal);
+                transform.right = direccionNueva;
+                rebotes++;
+                if(rebotes > cantidadRebotes)
+                {
+                    Destroy(gameObject);
+                }
+
+            }
+
+            //Destroy(gameObject);
         }
 
         
