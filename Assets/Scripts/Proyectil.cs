@@ -26,7 +26,7 @@ public class Proyectil : MonoBehaviour
     IEnumerator Start()
     {
         posicionAnterior = transform.position;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(10);
 
         Destroy(gameObject);
     }

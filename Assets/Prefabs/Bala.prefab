@@ -91,8 +91,8 @@ MonoBehaviour:
   velocidadBala: 25
   rb2d: {fileID: 3712510066958273812}
   puedeRebotar: 1
-  vida: 2
-  cantidadRebotes: 2
+  vida: 1
+  cantidadRebotes: 3
 --- !u!50 &3712510066958273812
 Rigidbody2D:
   serializedVersion: 4
