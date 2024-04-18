@@ -56,6 +56,12 @@ public class Proyectil : MonoBehaviour
 
             sonidosGO.ReproducirSonido();
 
+            // Si la bala toco un enemigo entonces se destruye
+            if(hit.transform.GetComponent<EsEnemigo>())
+            {
+                Destroy(gameObject);
+            }
+
             if(puedeRebotar)
             {
                 //rotar la bala

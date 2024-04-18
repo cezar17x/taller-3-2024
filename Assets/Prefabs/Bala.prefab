@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3515335256662989473}
   m_Layer: 0
   m_Name: Bala
-  m_TagString: Untagged
+  m_TagString: bala
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,8 +91,8 @@ MonoBehaviour:
   velocidadBala: 25
   rb2d: {fileID: 3712510066958273812}
   puedeRebotar: 1
-  vida: 1
-  cantidadRebotes: 3
+  vida: 2
+  cantidadRebotes: 4
 --- !u!50 &3712510066958273812
 Rigidbody2D:
   serializedVersion: 4
