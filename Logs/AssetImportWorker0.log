@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/LAB01-22/Documents/GitHub/taller-3-2024
+C:/Users/LAB01-24/Documents/GitHub/taller-3-2024
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50257
-Successfully changed project path to: C:/Users/LAB01-22/Documents/GitHub/taller-3-2024
-C:/Users/LAB01-22/Documents/GitHub/taller-3-2024
+52737
+Successfully changed project path to: C:/Users/LAB01-24/Documents/GitHub/taller-3-2024
+C:/Users/LAB01-24/Documents/GitHub/taller-3-2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/LAB01-22/Documents/GitHub/taller-3-2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18288] Host "[IP] 100.0.0.98 [Port] 0 [Flags] 2 [Guid] 1969414267 [EditorId] 1969414267 [Version] 1048832 [Id] WindowsEditor(7,LAB01-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6216] Host "[IP] 100.0.0.52 [Port] 0 [Flags] 2 [Guid] 2889888857 [EditorId] 2889888857 [Version] 1048832 [Id] WindowsEditor(7,LAB01-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18288] Host "[IP] 100.0.0.98 [Port] 0 [Flags] 2 [Guid] 1969414267 [EditorId] 1969414267 [Version] 1048832 [Id] WindowsEditor(7,LAB01-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6216] Host "[IP] 100.0.0.52 [Port] 0 [Flags] 2 [Guid] 2889888857 [EditorId] 2889888857 [Version] 1048832 [Id] WindowsEditor(7,LAB01-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 15.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/LAB01-22/Documents/GitHub/taller-3-2024/Assets
+[Subsystems] Discovering subsystems at path C:/Users/LAB01-24/Documents/GitHub/taller-3-2024/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,53 +70,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015097 seconds.
-- Loaded All Assemblies, in  0.431 seconds
+Registered in 0.014330 seconds.
+- Loaded All Assemblies, in  0.379 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
 Native extension for iOS target not found
-[usbmuxd] Listen thread started
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1428 ms
+Android Extension - Scanning For ADB Devices 215 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.869 seconds
-Domain Reload Profiling: 2297ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 960ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (120ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1869ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (583ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1800ms)
+		SetupLoadedEditorAssemblies (524ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1587ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (352ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (151ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,180 +122,443 @@ Domain Reload Profiling: 2297ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.101 seconds
-Refreshing native plugins compatible for Editor in 6.22 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.813 seconds
+Refreshing native plugins compatible for Editor in 6.52 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-GameFeel
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.969 seconds
-Domain Reload Profiling: 2056ms
-	BeginReloadAssembly (210ms)
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1732ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (745ms)
-		LoadAssemblies (528ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (574ms)
+		LoadAssemblies (389ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (337ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (246ms)
-			ScanForSourceGeneratedMonoScriptInfo (49ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (969ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (194ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (925ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (706ms)
+		SetupLoadedEditorAssemblies (721ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (438ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5904 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 98 unused Assets / (422.3 KB). Loaded Objects now: 6365.
-Memory consumption went from 231.3 MB to 230.9 MB.
-Total: 4.993600 ms (FindLiveObjects: 0.939600 ms CreateObjectMapping: 0.289600 ms MarkObjects: 3.511600 ms  DeleteObjects: 0.250700 ms)
+Unloading 6477 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (424.7 KB). Loaded Objects now: 6938.
+Memory consumption went from 250.8 MB to 250.3 MB.
+Total: 5.366900 ms (FindLiveObjects: 0.969800 ms CreateObjectMapping: 0.325600 ms MarkObjects: 3.821400 ms  DeleteObjects: 0.248900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 331.857734 seconds.
-  path: Assets/Prefabs/ExplosionMuere.prefab
-  artifactKey: Guid(675b7dd2766d5854ab2b183c3a06da13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ExplosionMuere.prefab using Guid(675b7dd2766d5854ab2b183c3a06da13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac44cb64fa8ba316561cc7efd83fcba') in 0.329938 seconds
+  Time since last request: 1853.314715 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f63cebcfa4218b508301bfb0faa1da') in 0.264903 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(f47d576795ebd0b4f89ea9b0e477bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(f47d576795ebd0b4f89ea9b0e477bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa99028c1e0437636789e89b5a86fef') in 0.058912 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b848f508e4ca03a64844f4c03d82a3c0') in 0.014932 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 182
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Prefabs/cucaracha.prefab
-  artifactKey: Guid(6c0a2b677fa019649b37cbad003109ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cucaracha.prefab using Guid(6c0a2b677fa019649b37cbad003109ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fb866ec7e85db958588e142105b808') in 0.015767 seconds
+  Time since last request: 4.720900 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85884ef7e326093b71d758eae62bc43f') in 0.012201 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Bala.prefab
-  artifactKey: Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bala.prefab using Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7202f85213c21e9126617b40467309d8') in 0.021724 seconds
+  Time since last request: 58.604358 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/ui option button pack.aseprite
+  artifactKey: Guid(5122686d59a95e24689d9e206e1ca433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/ui option button pack.aseprite using Guid(5122686d59a95e24689d9e206e1ca433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62511ac5cff18b018c9670f095298415') in 0.045311 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000643 seconds.
-  path: Assets/Prefabs/pared taller3ph.psd
-  artifactKey: Guid(006071a5534f8ec408e0dfa0b2d3aef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/pared taller3ph.psd using Guid(006071a5534f8ec408e0dfa0b2d3aef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf48b7fba0241d29f1fc85c822ea66') in 0.047985 seconds
+  Time since last request: 8.159508 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/demo.unity
+  artifactKey: Guid(62623cab6a9a6da44be30c0bf5ee6aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/demo.unity using Guid(62623cab6a9a6da44be30c0bf5ee6aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6428822c9862e4932251e98c979b87') in 0.000757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.113422 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden
+  artifactKey: Guid(123f5ff56abe2af41a0a385973008b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden using Guid(123f5ff56abe2af41a0a385973008b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e84c69b562859c436540e2e2f38b79') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096651 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/[lanks.png
+  artifactKey: Guid(9287f7664449d4a499eb8ad048931f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/[lanks.png using Guid(9287f7664449d4a499eb8ad048931f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5091b0bf70cd9c1f1e8d6b8560642d24') in 0.040253 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.688 seconds
-Refreshing native plugins compatible for Editor in 6.35 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.797 seconds
-Domain Reload Profiling: 2478ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (316ms)
-		LoadAssemblies (435ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1797ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (718ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (432ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 7.47 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5749 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (391.8 KB). Loaded Objects now: 6435.
-Memory consumption went from 205.6 MB to 205.3 MB.
-Total: 4.129100 ms (FindLiveObjects: 0.825600 ms CreateObjectMapping: 0.199700 ms MarkObjects: 2.912100 ms  DeleteObjects: 0.190800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/wooden switch on.png
+  artifactKey: Guid(1d67626654d38be4cb110dce61006a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/wooden switch on.png using Guid(1d67626654d38be4cb110dce61006a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e2ed3a21c8c07db0508e9bd0c715ce') in 0.012735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/square inside.png
+  artifactKey: Guid(9b915afd3b662864dbde24416b7e524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/square inside.png using Guid(9b915afd3b662864dbde24416b7e524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9672b46a77d84c8c92c74493e50f36b') in 0.011635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/wooden switch off.png
+  artifactKey: Guid(fa8ae141d30e8e544a4c86cd0cd43e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/wooden switch off.png using Guid(fa8ae141d30e8e544a4c86cd0cd43e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295b8d051c7f9ee5a006acc7bb1f1a24') in 0.018183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/window background.png
+  artifactKey: Guid(0c9a153f187b64e4caff0d38107778ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/window background.png using Guid(0c9a153f187b64e4caff0d38107778ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1a4c741e52b20c0c7dca7b714beb8a') in 0.009730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/wooden inside.png
+  artifactKey: Guid(b9a8046027c3a7c448e1cf7972a8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/wooden inside.png using Guid(b9a8046027c3a7c448e1cf7972a8b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4516a60ba74cd9698790dd253dc64180') in 0.016900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/wooden inside2.png
+  artifactKey: Guid(e9b024e355dbf7b42ab84a783c8837dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/wooden inside2.png using Guid(e9b024e355dbf7b42ab84a783c8837dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9c0ea770f00205e7aa7014aa5bfb6d') in 0.011861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/wooden pin minus.png
+  artifactKey: Guid(6f0188dae23e55e4d8da117c9163f2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/wooden pin minus.png using Guid(6f0188dae23e55e4d8da117c9163f2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28da1e81433719efbda855c6912bf6a5') in 0.012759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/wooden/window border.png
+  artifactKey: Guid(74493b5866790d642b7475004be3863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/wooden/window border.png using Guid(74493b5866790d642b7475004be3863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c27c0d79c4b3ed675457a12d4da4949') in 0.015733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.871656 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/viking/border.png
+  artifactKey: Guid(dd570c8ddf931c446acd92cf7fb02a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/viking/border.png using Guid(dd570c8ddf931c446acd92cf7fb02a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68c00d493f86f699117a1b24075ea37') in 0.009163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/viking/pin.png
+  artifactKey: Guid(1ecfe15c0b5f4434ba50cfd3070780cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/viking/pin.png using Guid(1ecfe15c0b5f4434ba50cfd3070780cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5895303638928cd384e64bf4df16bd9a') in 0.008766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/viking/off.png
+  artifactKey: Guid(e90f82c4b6e7f3248898f966c13b6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/viking/off.png using Guid(e90f82c4b6e7f3248898f966c13b6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf257c82b7a4342bdad3bda5d96ea44c') in 0.008700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/viking/slider.png
+  artifactKey: Guid(d13e418998a435b49a46859d6eb8e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/viking/slider.png using Guid(d13e418998a435b49a46859d6eb8e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9ffe7898608f58da5602c70b729577') in 0.008642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/viking/window border.png
+  artifactKey: Guid(5cb2e55d744fee741b1cbbd66ef9d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/viking/window border.png using Guid(5cb2e55d744fee741b1cbbd66ef9d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df676042c3e6fe06c580ca74a3c070a') in 0.008266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/viking/pin 2.png
+  artifactKey: Guid(62550b34dbe538246ac667a3ed0fa85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/viking/pin 2.png using Guid(62550b34dbe538246ac667a3ed0fa85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b564dc7291b148944a1741c09b251f') in 0.008384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.535585 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round gray/background.png
+  artifactKey: Guid(6c24e321658d0f54db7ab6835dfaad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round gray/background.png using Guid(6c24e321658d0f54db7ab6835dfaad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c628d9bbd9c9b701bdb051ee69d9f9b') in 0.011131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round gray/pin.png
+  artifactKey: Guid(20b6daf715b322545bf5955983ed0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round gray/pin.png using Guid(20b6daf715b322545bf5955983ed0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc544f09f83266acc5e884e604ba6e') in 0.008069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round gray/slider.png
+  artifactKey: Guid(d933e9f96c1b38b468b73cbff464348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round gray/slider.png using Guid(d933e9f96c1b38b468b73cbff464348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b971707c1212828ebf110931570b6e') in 0.008218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round gray/options big.png
+  artifactKey: Guid(4e9667a0f7f3e52428d36a494f01a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round gray/options big.png using Guid(4e9667a0f7f3e52428d36a494f01a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ecc2779d7275c60b535d0d8b990dcc') in 0.008627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round gray/pin plus.png
+  artifactKey: Guid(1543f04a572bd6b46a8622ef6f4b7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round gray/pin plus.png using Guid(1543f04a572bd6b46a8622ef6f4b7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0925e6f2acd3ba88051e01accba267cf') in 0.008498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.047007 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round color/ options.png
+  artifactKey: Guid(cf75796d54805a64bb7766a67d054a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round color/ options.png using Guid(cf75796d54805a64bb7766a67d054a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69edacc70c62ed202b0a1f2d4c67b543') in 0.011026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round color/ pin plus.png
+  artifactKey: Guid(aebfda263af6d4b4f8694bd6faac09dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round color/ pin plus.png using Guid(aebfda263af6d4b4f8694bd6faac09dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aa8c44284eb7317980978b03b004f1') in 0.009668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round color/ switch.png
+  artifactKey: Guid(8d8b7c41b552d0046814630065b32b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round color/ switch.png using Guid(8d8b7c41b552d0046814630065b32b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12e0ffe4610fb209024fddf35062a88') in 0.010927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round color/ switch off.png
+  artifactKey: Guid(3b48da812221c1b439f5150e1a5fdf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round color/ switch off.png using Guid(3b48da812221c1b439f5150e1a5fdf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8369a68eba32a5ce054fdc650b5237b6') in 0.009697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round color/ window background.png
+  artifactKey: Guid(1b6b3b87d2c6e3246a1a540b561d65f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round color/ window background.png using Guid(1b6b3b87d2c6e3246a1a540b561d65f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f19ddce711b817fb7034e8114b3a1c') in 0.009638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/round color/ pin minus.png
+  artifactKey: Guid(641f48f4fdf275c4593deb989bdb0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/round color/ pin minus.png using Guid(641f48f4fdf275c4593deb989bdb0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78925b2ef5d48a30407f80f1a5858db2') in 0.010480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.710985 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/metal border.png
+  artifactKey: Guid(0ece73ca3b0d0a0419d3a6c964981690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/metal border.png using Guid(0ece73ca3b0d0a0419d3a6c964981690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c0c07e996f16e7b21b6773afab2a1b') in 0.010876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/options big.png
+  artifactKey: Guid(c5d1219da42b4b04bab2bb45f4c26493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/options big.png using Guid(c5d1219da42b4b04bab2bb45f4c26493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067f2d89f02b59ba6d338866feafeb2a') in 0.013045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/window border.png
+  artifactKey: Guid(c880715d87b121a43ac6bbe7cef3abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/window border.png using Guid(c880715d87b121a43ac6bbe7cef3abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89af3d517cc4f21242c65f7be63cb3f5') in 0.016095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/metal switch pin plus.png
+  artifactKey: Guid(91628252a8f47234e98f8decde1aaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/metal switch pin plus.png using Guid(91628252a8f47234e98f8decde1aaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98985d2c3ec3a29f80f642744830462') in 0.011821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/options.png
+  artifactKey: Guid(37bd1de02740d5543bb12786d65bd6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/options.png using Guid(37bd1de02740d5543bb12786d65bd6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c5e974a6015ccd87912dccbd1ab07') in 0.012303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/metal switch pin.png
+  artifactKey: Guid(d53f5ae63c175784388e90aa387c2b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/metal switch pin.png using Guid(d53f5ae63c175784388e90aa387c2b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc71eeff94f83385af4cbedec9861c0') in 0.015993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/metal/metal switch slide.png
+  artifactKey: Guid(4d4c57e5ee6e8864b9b09b024601e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/metal/metal switch slide.png using Guid(4d4c57e5ee6e8864b9b09b024601e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a830e5f8e509296dbeb49869879eb00d') in 0.015520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.768380 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/fancy metal/options.png
+  artifactKey: Guid(5ce8629cd67c62948a99d43d7426fbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/fancy metal/options.png using Guid(5ce8629cd67c62948a99d43d7426fbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c640a76ee97d3f72d18eb454f7261ec4') in 0.028788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/fancy metal/slider.png
+  artifactKey: Guid(86c72ee215346d843b2e583f23977760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/fancy metal/slider.png using Guid(86c72ee215346d843b2e583f23977760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5975b2885e905a739171a6cf8a649d93') in 0.009798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/fancy metal/switch on.png
+  artifactKey: Guid(577f2fa1926d7914298e38f06489af9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/fancy metal/switch on.png using Guid(577f2fa1926d7914298e38f06489af9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f40494c20379f9f4a38dd42d8d21337') in 0.009408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel art Menu package (5 sets)/fancy metal/pin plus.png
+  artifactKey: Guid(a35520e3c4eb09349a99fefdf112854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel art Menu package (5 sets)/fancy metal/pin plus.png using Guid(a35520e3c4eb09349a99fefdf112854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94074085dd5881ad8b946e649676a784') in 0.023578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.048153 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa620e0ecf7fd4e5cc5e681de5439943') in 0.001855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.220836 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat.mat
+  artifactKey: Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat.mat using Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc7a82adca6d49e55c3238e75fa4c22') in 0.027483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.717553 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facc38ece7c929d4fff97e5906315969') in 0.023993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server

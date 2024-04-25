@@ -14,12 +14,12 @@ public class PrevenirDispararPiso : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
 
-            armaEnPiso = true;
+            //armaEnPiso = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
 
-            armaEnPiso = false;
+           // armaEnPiso = false;
     }
 }

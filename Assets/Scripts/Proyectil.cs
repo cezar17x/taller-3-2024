@@ -61,8 +61,15 @@ public class Proyectil : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+            //si la bala toca el boto tmb se destruye
+            if (hit.transform.GetComponent<EsBoton>())
+            {
+                Destroy(gameObject);
+            }
 
-            if(puedeRebotar)
+
+
+            if (puedeRebotar)
             {
                 //rotar la bala
                 Vector2 direccionNueva = Vector2.Reflect(transform.right, hit.normal);
