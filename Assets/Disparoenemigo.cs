@@ -8,6 +8,10 @@ public class Disparoenemigo : MonoBehaviour
  public float distanciaLinea;
  public LayerMask capaJugador;
  public bool jugadorEnRango;
+    public float tiempoEntreDisparos;
+    public float tiempoUltimoDisparo;
+  public GameObject balaenemigo;
+  public float tiempoEsperaDisparo;  
 
 
 
@@ -15,13 +19,27 @@ public class Disparoenemigo : MonoBehaviour
         {
         jugadorEnRango = Physics2D.Raycast(controladorDisparo.position, transform.right, distanciaLinea, capaJugador);
 
-        if (jugadorEnRango) { }
+        if (jugadorEnRango) 
+            { 
+            if(Time.time > tiempoEntreDisparos + tiempoUltimoDisparo) 
+                {
+                tiempoUltimoDisparo = Time.time;
+                Invoke(nameof(Disparar), tiempoEsperaDisparo);
+                
+                }
+            }
+        }
+
+    private void Disparar() 
+        { 
+        Instantiate(balaenemigo, controladorDisparo.position, controladorDisparo.rotation);
+        
         }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-
+        Gizmos.DrawLine(controladorDisparo.position, controladorDisparo.position + transform.right * distanciaLinea);
 
     }
 
