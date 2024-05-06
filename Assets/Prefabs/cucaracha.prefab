@@ -265,9 +265,12 @@ GameObject:
   - component: {fileID: 6790227141503183601}
   - component: {fileID: 2206435661130017899}
   - component: {fileID: 3065875744034529020}
+  - component: {fileID: 1378640494330835935}
+  - component: {fileID: 288388940925774351}
+  - component: {fileID: 2442199725402386525}
   m_Layer: 0
   m_Name: cucaracha
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,7 +284,7 @@ Transform:
   m_GameObject: {fileID: 944715606716680252}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.13, y: 5.65, z: 0}
+  m_LocalPosition: {x: 117.76, y: 6.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -317,7 +320,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -358,10 +361,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0061d50a836caad4cafb3bc51464f596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 21
+  hp: 6
   onHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7826645704081797257}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: damageanimation
+          m_BoolArgument: 0
+        m_CallState: 2
   onMuere:
     m_PersistentCalls:
       m_Calls:
@@ -402,6 +417,61 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d7d15676ac7a3c4b9826dd6dce24692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1378640494330835935
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944715606716680252}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &288388940925774351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944715606716680252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5542c56f709f724c81b6725626db829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playertransform: {fileID: 0}
+  velocidadenemy: 5
+  distanciaminima: 15
+  rbenemigo: {fileID: 1378640494330835935}
+--- !u!114 &2442199725402386525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944715606716680252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14411a5c5cfed34b9b9a7415c087bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2276363363767318732
@@ -598,7 +668,7 @@ Transform:
   m_GameObject: {fileID: 2465931636034801617}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.008000374, y: -0.11199999, z: 0.01138304}
+  m_LocalPosition: {x: -0.5, y: -0.01, z: 0.01138304}
   m_LocalScale: {x: 0.3, y: 0.6375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
