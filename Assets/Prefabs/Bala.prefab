@@ -92,7 +92,7 @@ MonoBehaviour:
   rb2d: {fileID: 3712510066958273812}
   puedeRebotar: 1
   vida: 2
-  cantidadRebotes: 4
+  cantidadRebotes: 3
 --- !u!50 &3712510066958273812
 Rigidbody2D:
   serializedVersion: 4
