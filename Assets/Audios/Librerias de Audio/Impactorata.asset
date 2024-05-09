@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Impactorata
   m_EditorClassIdentifier: 
   sonidos:
-  - {fileID: 8300000, guid: 2c248adf852c69c418443e6104953593, type: 3}
+  - {fileID: 8300000, guid: a6508252ce227ef4fa3f2548cf157529, type: 3}

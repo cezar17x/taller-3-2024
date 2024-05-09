@@ -15,4 +15,8 @@ public class Gamemanager : MonoBehaviour
     {
         SceneManager.LoadScene("level 1");
     }
+    public void Irainicio()
+    {
+        SceneManager.LoadScene("pantallainicio");
+    }
 }
