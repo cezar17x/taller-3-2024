@@ -19,4 +19,8 @@ public class Gamemanager : MonoBehaviour
     {
         SceneManager.LoadScene("pantallainicio");
     }
+    public void ReiniciarNivel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
